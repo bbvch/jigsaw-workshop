@@ -15,4 +15,10 @@ public class TodoItem {
         return message;
     }
 
+    @Override
+    public String toString() {
+        return "TodoItem{" +
+                "message='" + message + '\'' +
+                '}';
+    }
 }

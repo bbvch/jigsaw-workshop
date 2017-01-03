@@ -3,4 +3,5 @@
  */
 module ch.bbv.java9.todo.app {
     exports ch.bbv.java9.todo.app.api;
+    requires ch.bbv.java9.todo.model;
 }
