@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ch.bbv.java9.todo.app/ch.bbv.java9.todo.app.iml" filepath="$PROJECT_DIR$/ch.bbv.java9.todo.app/ch.bbv.java9.todo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch.bbv.java9.todo.model/ch.bbv.java9.todo.model.iml" filepath="$PROJECT_DIR$/ch.bbv.java9.todo.model/ch.bbv.java9.todo.model.iml" />
     </modules>
   </component>
 </project>
