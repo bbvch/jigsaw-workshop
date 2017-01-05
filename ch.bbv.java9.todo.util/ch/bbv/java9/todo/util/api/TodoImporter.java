@@ -14,5 +14,5 @@ public interface TodoImporter {
      * import a list of {@link TodoItem} instances from given source
      * @return the imported list of items
      */
-    List<TodoItem> imporItems();
+    List<TodoItem> importItems();
 }
