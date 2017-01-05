@@ -4,6 +4,6 @@
  */
 module ch.bbv.java9.todo.util {
     exports ch.bbv.java9.todo.util.api;
-    requires ch.bbv.java9.todo.model;
+    requires public ch.bbv.java9.todo.model;
     requires commonscsv;
 }
