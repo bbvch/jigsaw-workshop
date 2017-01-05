@@ -8,10 +8,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by Daniel on 03.01.2017.
+ * Imports {@link TodoItem}s from command line
+ * Created by
+ * Daniel on 03.01.2017.
  */
 public class TodoCLIImporter implements TodoImporter {
-
 
     private final String[] args;
 

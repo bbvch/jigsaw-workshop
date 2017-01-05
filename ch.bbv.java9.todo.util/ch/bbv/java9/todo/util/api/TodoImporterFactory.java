@@ -4,6 +4,7 @@ import ch.bbv.java9.todo.util.internal.TodoCLIImporter;
 import ch.bbv.java9.todo.util.internal.TodoCSVImporter;
 
 /**
+ * Factory class for instances of {@link TodoImporter}
  * Created by Daniel on 03.01.2017.
  */
 public class TodoImporterFactory {
