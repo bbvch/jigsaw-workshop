@@ -1,6 +1,7 @@
 package ch.bbv.java9.todo.util.internal;
 
 import ch.bbv.java9.todo.model.entity.TodoItem;
+import ch.bbv.java9.todo.model.internal.TodoItemStatus;
 import ch.bbv.java9.todo.util.api.TodoImporter;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -36,7 +37,8 @@ public class TodoCSVImporter implements TodoImporter {
             records = CSVFormat.RFC4180.withFirstRecordAsHeader().parse(new FileReader(filename));
             for (CSVRecord record : records){
                 String message = record.get("message");
-                todoItems.add(new TodoItem(message));
+                TodoItemStatus status = TodoItemStatus.valueOf(record.get("status"));
+                todoItems.add(new TodoItem(message, status));
             }
         }
         catch(IOException e){
