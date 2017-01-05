@@ -31,6 +31,7 @@ public class TodoItem {
     public String toString() {
         return "TodoItem{" +
                 "message='" + message + '\'' +
+                ", status=" + status +
                 '}';
     }
 }
