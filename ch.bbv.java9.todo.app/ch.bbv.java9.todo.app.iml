@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ch.bbv.java9.todo.model" />
+    <orderEntry type="module" module-name="ch.bbv.java9.todo.util" />
   </component>
 </module>
