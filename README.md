@@ -14,15 +14,15 @@ For each exercise from the presentation there is a separate branch containing a 
 Check out this branch if you get stuck or if you want to compare your solution with the sample solution.
 
 The exercises tackle the following topics:
-- exercise-01: Module definition
-- exercise-02: Module compilation
-- exercise-03: Running a modularized application
-- exercise-04: Multiple modules
-- exercise-05: Module dependencies
-- exercise-06: Module Packaging
-- exercise-07: Automatic modules
-- exercise-08: Implied readability
-- exercise-09: Qualified exports
+- [exercise-01](./tree/exercise-01): Module definition
+- [exercise-02](./tree/exercise-01): Module compilation
+- [exercise-03](./tree/exercise-01): Running a modularized application
+- [exercise-04](./tree/exercise-01): Multiple modules
+- [exercise-05](./tree/exercise-01): Module dependencies
+- [exercise-06](./tree/exercise-01): Module Packaging
+- [exercise-07](./tree/exercise-01): Automatic modules
+- [exercise-08](./tree/exercise-01): Implied readability
+- [exercise-09](./tree/exercise-01): Qualified exports
 
 ## Good to know
 ### JDK Status
