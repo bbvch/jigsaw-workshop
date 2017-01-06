@@ -4,5 +4,7 @@
  */
 module ch.bbv.java9.todo.app {
     exports ch.bbv.java9.todo.app.api;
-    requires ch.bbv.java9.todo.util;
+    exports ch.bbv.java9.todo.spi;
+    requires public ch.bbv.java9.todo.util;
+    uses ch.bbv.java9.todo.spi.TodoWriterProvider;
 }
