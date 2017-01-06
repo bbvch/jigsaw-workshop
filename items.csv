@@ -1,4 +1,4 @@
 id,message,status
-97,Do laundry,n
-98,go shopping,s
-99,call mom,f
+97,Do laundry,NEW
+98,go shopping,STARTED
+99,call mom,FINISHED
