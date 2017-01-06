@@ -23,6 +23,9 @@ The exercises tackle the following topics:
 - [exercise-07](https://github.com/bbvch/jigsaw-workshop/tree/exercise-07): Automatic modules
 - [exercise-08](https://github.com/bbvch/jigsaw-workshop/tree/exercise-08): Implied readability
 - [exercise-09](https://github.com/bbvch/jigsaw-workshop/tree/exercise-09): Qualified exports
+- [exercise-10](https://github.com/bbvch/jigsaw-workshop/tree/exercise-10): Services
+- [exercise-11](https://github.com/bbvch/jigsaw-workshop/tree/exercise-11): jdeps
+- [exercise-12](https://github.com/bbvch/jigsaw-workshop/tree/exercise-12): jlink
 
 ## Good to know
 ### JDK Status
